@@ -202,10 +202,14 @@ if( ! class_exists('umwpuf\admin\Admin')){
 
 
 			if ( ! empty( $_POST['umwpuf']['_can_have_this_tab_roles'] ) ) {
-				$tab_roles = array_map( 'esc_html', $_POST['umwpuf']['_can_have_this_tab_roles'] );
+
+				$tab_roles = array_map( 'sanitize_text_field', $_POST['umwpuf']['_can_have_this_tab_roles'] );
 				update_post_meta( $post_id, '_can_have_this_tab_roles', $tab_roles );
+
 			} else {
+
 				update_post_meta( $post_id, '_can_have_this_tab_roles', [] );
+				
 			}
 
 

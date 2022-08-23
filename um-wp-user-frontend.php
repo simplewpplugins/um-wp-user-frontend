@@ -1,9 +1,9 @@
 <?php
 /*
- Plugin Name: Ultimate member - WP User Frontend
+ Plugin Name: WP User Frontend Integration for Ultimate Member
  Plugin URI: https://wordpress.org/plugins/um-wp-user-frontend
- Description: This plugin integrates WP User Frontend to Ultimate member allowing you to add post forms to Ultimate member user profile.
- Version: 1.1
+ Description: Integrates WP User Frontend to Ultimate member allowing you to add post forms to Ultimate member user profile.
+ Version: 1.3
  Requires at least: 3.0
  Requires PHP: 7.0
  Author: Simple Plugins
@@ -27,8 +27,10 @@ if( ! defined( 'UMWPUF_PATH' )){
 	define( 'UMWPUF_PATH', trailingslashit( plugin_dir_path( __FILE__ ) ) );
 }
 
+add_action( 'plugins_loaded', 'umwpuf_check_dependencies', -20 );
+function umwpuf_check_dependencies(){
 
-if( is_plugin_active('wp-user-frontend/wpuf.php') &&  is_plugin_active('ultimate-member/ultimate-member.php')  ){
+	if( is_plugin_active('wp-user-frontend/wpuf.php') &&  is_plugin_active('ultimate-member/ultimate-member.php')  ){
 
 	include UMWPUF_PATH.'includes/init.php';
 
@@ -42,22 +44,4 @@ if( is_plugin_active('wp-user-frontend/wpuf.php') &&  is_plugin_active('ultimate
 
 }
 
-
-/*
-apply_filters( 'wpuf_front_post_edit_link', $url );
-$form_fields[] = apply_filters( 'wpuf-get-form-fields', $field );
-add_action( 'save_post', [ WPUF_Admin_Posting::init(), 'save_meta' ], 1 );
-apply_filters( 'wpuf_register_url', $url, $page_id 
-return apply_filters( 'wpuf_login_url', $url, $page_id );
-WPUF dashboard [wpuf_account]
-wpuf_subscription
-Change role after subscription purchase
-display subscription options: [wpuf_sub_pack]
-do_action( 'wpuf_payment_received', $data, $recurring );
-apply_filters( 'wpuf_new_subscription', $user_meta, $this->user->id, $pack_id, $recurring );
-
-$key = '_wpuf_subscription_pack'
-update_user_meta( $this->user->id, $key, $user_meta );
-wpuf()->subscription->insert_free_pack_subscribers( $pack_id, $this->user );
-delete_user_meta( $this->user->id, '_wpuf_subscription_pack' );
-*/
+}

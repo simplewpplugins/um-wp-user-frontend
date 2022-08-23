@@ -66,7 +66,7 @@ if( ! class_exists('umwpuf\Helper')){
 
         function can_view_tab( $tab_id, $user_id = null ){
 
-            if( um_is_myprofile() ){
+            if( um_profile_id() == get_current_user_id() ){
                 return true;
             }
 
