@@ -15,7 +15,7 @@ if( ! class_exists('UM_WP_User_Frontend')){
             $class_name = str_replace( 'umwpuf','includes', $class_name );
             $class_name = str_replace( '\\','/', $class_name );
             $array = explode( '/', strtolower( $class_name ) );
-            $class_file_name = 'class-'. end( $array ).'.php';
+            $class_file_name = 'class-'. str_replace( '_', '-', end( $array ) ).'.php';
             $array[ count( $array ) - 1 ] = strtolower($class_file_name);
             $class_name = implode('/',$array);
 
@@ -46,6 +46,9 @@ if( ! class_exists('UM_WP_User_Frontend')){
 
             $this->helper();
             $this->profile();
+            $this->edit_form();
+            $this->dashboard();
+            $this->loop_builder();
 
 	        $this->admin();
 
@@ -76,6 +79,25 @@ if( ! class_exists('UM_WP_User_Frontend')){
 
 
 
+
+        function edit_form(){
+            if ( empty( $this->classes['edit_form'] ) ) {
+                $this->classes['edit_form'] = new umwpuf\Edit_Form();
+            }
+            return $this->classes['edit_form'];
+        }
+
+        function dashboard(){
+            if ( empty( $this->classes['dashboard'] ) ) {
+                $this->classes['dashboard'] = new umwpuf\Dashboard();
+            }
+            return $this->classes['dashboard'];
+        }
+
+        function loop_builder(){
+            if ( empty( $this->classes['loop_builder'] ) ) { $this->classes['loop_builder'] = new umwpuf\Loop_Builder(); }
+            return $this->classes['loop_builder'];
+        }
 
         function admin(){
             if( empty($this->classes['admin'])){

@@ -1,0 +1,1171 @@
+# Copyright (C) 2026 Simple Plugins
+# This file is distributed under the GPL v2 or later.
+msgid ""
+msgstr ""
+"Project-Id-Version: WP User Frontend Integration for Ultimate Member 1.6.0\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/um-wp-user-frontend\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2026-11-22T11:01:54+00:00\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"X-Generator: WP-CLI 2.12.0\n"
+"X-Domain: um-wp-user-frontend\n"
+
+#. Plugin Name of the plugin
+#: um-wp-user-frontend.php
+msgid "WP User Frontend Integration for Ultimate Member"
+msgstr ""
+
+#. Plugin URI of the plugin
+#: um-wp-user-frontend.php
+msgid "https://wordpress.org/plugins/um-wp-user-frontend"
+msgstr ""
+
+#. Description of the plugin
+#: um-wp-user-frontend.php
+msgid "Add WP User Frontend post submission forms to Ultimate Member profile tabs so members can submit posts directly from their profiles."
+msgstr ""
+
+#. Author of the plugin
+#: um-wp-user-frontend.php
+msgid "Simple Plugins"
+msgstr ""
+
+#. Author URI of the plugin
+#: um-wp-user-frontend.php
+msgid "https://aswin.com.np"
+msgstr ""
+
+#: includes/admin/class-admin.php:26
+#: includes/class-dashboard.php:295
+msgid "Access denied."
+msgstr ""
+
+#: includes/admin/class-admin.php:36
+msgid "Entries + Add New workspace (recommended)"
+msgstr ""
+
+#: includes/admin/class-admin.php:37
+msgid "Submission form only (legacy)"
+msgstr ""
+
+#: includes/admin/class-admin.php:38
+msgid "Owner’s posts dashboard (legacy)"
+msgstr ""
+
+#: includes/admin/class-admin.php:39
+msgid "Public published posts (legacy)"
+msgstr ""
+
+#: includes/admin/class-admin.php:45
+#: templates/admin/designer.php:80
+msgid "Grid"
+msgstr ""
+
+#: includes/admin/class-admin.php:46
+msgid "List"
+msgstr ""
+
+#: includes/admin/class-admin.php:47
+msgid "Compact rows"
+msgstr ""
+
+#: includes/admin/class-admin.php:48
+msgid "Custom layout (designer)"
+msgstr ""
+
+#: includes/admin/class-admin.php:68
+#: includes/admin/class-admin.php:75
+#: includes/admin/class-admin.php:93
+msgid "Frontend Post Tabs"
+msgstr ""
+
+#: includes/admin/class-admin.php:73
+msgctxt "Post Type General Name"
+msgid "Frontend Post Tabs"
+msgstr ""
+
+#: includes/admin/class-admin.php:74
+msgctxt "Post Type Singular Name"
+msgid "Frontend post tab"
+msgstr ""
+
+#: includes/admin/class-admin.php:76
+msgid "Profile Tab"
+msgstr ""
+
+#: includes/admin/class-admin.php:77
+msgid "All Tabs"
+msgstr ""
+
+#: includes/admin/class-admin.php:78
+msgid "Add New Profile Tab"
+msgstr ""
+
+#: includes/admin/class-admin.php:79
+msgid "Add New Tab"
+msgstr ""
+
+#: includes/admin/class-admin.php:80
+msgid "New Tab"
+msgstr ""
+
+#: includes/admin/class-admin.php:81
+msgid "Edit Profile Tab"
+msgstr ""
+
+#: includes/admin/class-admin.php:82
+msgid "Update Tab"
+msgstr ""
+
+#: includes/admin/class-admin.php:83
+msgid "Search Tabs"
+msgstr ""
+
+#: includes/admin/class-admin.php:84
+msgid "No tabs yet. Add one to give members a frontend workspace."
+msgstr ""
+
+#: includes/admin/class-admin.php:85
+msgid "No tabs in Trash."
+msgstr ""
+
+#: includes/admin/class-admin.php:94
+msgid "Ultimate Member tab for frontend posting"
+msgstr ""
+
+#: includes/admin/class-admin.php:132
+msgid "Purpose"
+msgstr ""
+
+#: includes/admin/class-admin.php:133
+msgid "Form"
+msgstr ""
+
+#: includes/admin/class-admin.php:134
+msgid "Layout"
+msgstr ""
+
+#: includes/admin/class-admin.php:135
+msgid "Tab key"
+msgstr ""
+
+#: includes/admin/class-admin.php:154
+msgid "(form not published)"
+msgstr ""
+
+#: includes/admin/class-admin.php:157
+msgid "No form selected"
+msgstr ""
+
+#: includes/admin/class-admin.php:177
+msgid "Tab Settings"
+msgstr ""
+
+#: includes/admin/class-admin.php:178
+msgid "Custom Layout Designer"
+msgstr ""
+
+#: includes/class-dashboard.php:33
+msgid "Unable to load entries. Please try again."
+msgstr ""
+
+#: includes/class-dashboard.php:34
+msgid "Retry"
+msgstr ""
+
+#. translators: %s: taxonomy label, e.g. "Categories"
+#: includes/class-dashboard.php:138
+#, php-format
+msgid "All %s"
+msgstr ""
+
+#: includes/class-dashboard.php:207
+msgid "My Posts"
+msgstr ""
+
+#: includes/class-dashboard.php:207
+msgid "Published Posts"
+msgstr ""
+
+#: includes/class-dashboard.php:209
+msgid "Search posts…"
+msgstr ""
+
+#: includes/class-dashboard.php:219
+msgid "Clear filters"
+msgstr ""
+
+#: includes/class-dashboard.php:226
+msgid "Select a published WP User Frontend form with a valid post type in this tab’s settings."
+msgstr ""
+
+#: includes/class-dashboard.php:242
+msgid "Entry submitted successfully."
+msgstr ""
+
+#: includes/class-dashboard.php:242
+msgid "Changes saved."
+msgstr ""
+
+#: includes/class-dashboard.php:243
+msgid "Dismiss"
+msgstr ""
+
+#: includes/class-dashboard.php:247
+msgid "Content management"
+msgstr ""
+
+#: includes/class-dashboard.php:248
+msgid "Entries"
+msgstr ""
+
+#: includes/class-dashboard.php:249
+#: includes/class-dashboard.php:279
+msgid "Add New"
+msgstr ""
+
+#: includes/class-dashboard.php:263
+msgid "Back to entries"
+msgstr ""
+
+#: includes/class-dashboard.php:265
+msgid "You cannot edit this entry. The link may have expired; open it again from your entries."
+msgstr ""
+
+#. translators: %s: entry title
+#: includes/class-dashboard.php:267
+#, php-format
+msgid "Editing: %s"
+msgstr ""
+
+#. translators: %s: entry title
+#: includes/class-dashboard.php:267
+#: includes/class-dashboard.php:388
+msgid "(Untitled)"
+msgstr ""
+
+#: includes/class-dashboard.php:274
+msgid "Search entries…"
+msgstr ""
+
+#: includes/class-dashboard.php:290
+msgid "Your session expired. Reload the page and try again."
+msgstr ""
+
+#: includes/class-dashboard.php:357
+msgid "No matching entries"
+msgstr ""
+
+#: includes/class-dashboard.php:357
+msgid "Try a different search or clear the filters."
+msgstr ""
+
+#: includes/class-dashboard.php:359
+msgid "No entries yet"
+msgstr ""
+
+#: includes/class-dashboard.php:359
+msgid "Your submissions will appear here."
+msgstr ""
+
+#: includes/class-dashboard.php:360
+msgid "Create your first entry"
+msgstr ""
+
+#: includes/class-dashboard.php:362
+msgid "Nothing here yet"
+msgstr ""
+
+#. translators: 1: first item number, 2: last item number, 3: total items
+#: includes/class-dashboard.php:371
+#, php-format
+msgid "Showing %1$s–%2$s of %3$s"
+msgstr ""
+
+#. translators: %s: entry title
+#: includes/class-dashboard.php:392
+#: includes/class-loop-builder.php:383
+#, php-format
+msgid "Edit “%s”"
+msgstr ""
+
+#. translators: %s: entry title
+#: includes/class-dashboard.php:392
+#: includes/class-loop-builder.php:384
+msgid "Edit entry"
+msgstr ""
+
+#: includes/class-dashboard.php:411
+#: includes/class-loop-builder.php:100
+#: includes/class-loop-builder.php:573
+#: templates/admin/designer.php:46
+msgid "View post"
+msgstr ""
+
+#: includes/class-dashboard.php:411
+msgid "Preview"
+msgstr ""
+
+#: includes/class-dashboard.php:416
+msgid "Edit"
+msgstr ""
+
+#: includes/class-dashboard.php:433
+msgid "Entries pages"
+msgstr ""
+
+#: includes/class-dashboard.php:434
+msgid "Previous page"
+msgstr ""
+
+#. translators: %s: page number
+#: includes/class-dashboard.php:441
+#, php-format
+msgid "Page %s"
+msgstr ""
+
+#: includes/class-dashboard.php:444
+msgid "Next page"
+msgstr ""
+
+#: includes/class-edit-form.php:29
+#: includes/class-edit-form.php:34
+msgid "You cannot edit this entry."
+msgstr ""
+
+#: includes/class-edit-form.php:39
+msgid "Please reopen this entry to edit it."
+msgstr ""
+
+#. translators: %s: number of comments
+#: includes/class-loop-builder.php:570
+#, php-format
+msgid "%s comment"
+msgid_plural "%s comments"
+msgstr[0] ""
+msgstr[1] ""
+
+#: includes/class-profile.php:91
+msgid "This tab has no published WP User Frontend form selected."
+msgstr ""
+
+#: templates/admin/designer.php:15
+msgid "Title"
+msgstr ""
+
+#: templates/admin/designer.php:16
+msgid "Excerpt"
+msgstr ""
+
+#: templates/admin/designer.php:17
+msgid "Custom field"
+msgstr ""
+
+#: templates/admin/designer.php:18
+msgid "Taxonomy terms"
+msgstr ""
+
+#: templates/admin/designer.php:19
+msgid "Static text"
+msgstr ""
+
+#: templates/admin/designer.php:20
+msgid "Featured image"
+msgstr ""
+
+#: templates/admin/designer.php:21
+msgid "Author avatar"
+msgstr ""
+
+#: templates/admin/designer.php:22
+msgid "Publish date"
+msgstr ""
+
+#: templates/admin/designer.php:23
+msgid "Last updated"
+msgstr ""
+
+#: templates/admin/designer.php:24
+msgid "Author name"
+msgstr ""
+
+#: templates/admin/designer.php:25
+msgid "Status (owner only)"
+msgstr ""
+
+#: templates/admin/designer.php:26
+msgid "Comment count"
+msgstr ""
+
+#: templates/admin/designer.php:27
+msgid "Button"
+msgstr ""
+
+#: templates/admin/designer.php:28
+msgid "Divider"
+msgstr ""
+
+#: templates/admin/designer.php:29
+msgid "Spacer"
+msgstr ""
+
+#: templates/admin/designer.php:30
+msgid "Content"
+msgstr ""
+
+#: templates/admin/designer.php:31
+msgid "Media"
+msgstr ""
+
+#: templates/admin/designer.php:32
+msgid "Details"
+msgstr ""
+
+#: templates/admin/designer.php:33
+msgid "Layout & actions"
+msgstr ""
+
+#: templates/admin/designer.php:34
+#: templates/admin/designer.php:200
+msgid "Desktop"
+msgstr ""
+
+#: templates/admin/designer.php:35
+#: templates/admin/designer.php:201
+msgid "Tablet"
+msgstr ""
+
+#: templates/admin/designer.php:36
+#: templates/admin/designer.php:202
+msgid "Phone"
+msgstr ""
+
+#: templates/admin/designer.php:37
+msgid "Sunny two-bedroom apartment"
+msgstr ""
+
+#: templates/admin/designer.php:38
+msgid "Quiet cottage with a garden"
+msgstr ""
+
+#: templates/admin/designer.php:39
+msgid "Modern loft in the old town"
+msgstr ""
+
+#: templates/admin/designer.php:40
+msgid "Family house near the lake"
+msgstr ""
+
+#: templates/admin/designer.php:41
+msgid "Studio with mountain views"
+msgstr ""
+
+#: templates/admin/designer.php:42
+msgid "Renovated flat by the river"
+msgstr ""
+
+#: templates/admin/designer.php:43
+msgid "Bright corner unit with a balcony, wooden floors and an open kitchen. Close to shops, schools and the park, with easy access to public transport and plenty of natural light throughout the day."
+msgstr ""
+
+#: templates/admin/designer.php:44
+msgid "Published"
+msgstr ""
+
+#: templates/admin/designer.php:45
+msgid "comments"
+msgstr ""
+
+#: templates/admin/designer.php:47
+msgid "Type some text"
+msgstr ""
+
+#: templates/admin/designer.php:48
+msgid "Choose a taxonomy"
+msgstr ""
+
+#: templates/admin/designer.php:49
+msgid "Taxonomy not available for this form"
+msgstr ""
+
+#: templates/admin/designer.php:50
+msgid "Choose a custom field"
+msgstr ""
+
+#: templates/admin/designer.php:51
+msgid "Sample text"
+msgstr ""
+
+#: templates/admin/designer.php:52
+msgid "Drop elements here"
+msgstr ""
+
+#: templates/admin/designer.php:53
+msgid "Row"
+msgstr ""
+
+#: templates/admin/designer.php:54
+msgid "Add a row to start designing"
+msgstr ""
+
+#: templates/admin/designer.php:55
+msgid "Element limit reached (40)."
+msgstr ""
+
+#: templates/admin/designer.php:56
+msgid "added"
+msgstr ""
+
+#: templates/admin/designer.php:57
+msgid "Classic card"
+msgstr ""
+
+#: templates/admin/designer.php:58
+msgid "Horizontal (image beside text)"
+msgstr ""
+
+#: templates/admin/designer.php:59
+msgid "Listing with details"
+msgstr ""
+
+#: templates/admin/designer.php:60
+msgid "Author spotlight"
+msgstr ""
+
+#: templates/admin/designer.php:61
+msgid "Read more"
+msgstr ""
+
+#: templates/admin/designer.php:62
+msgid "Compact list rows"
+msgstr ""
+
+#: templates/admin/designer.php:63
+msgid "Open"
+msgstr ""
+
+#: templates/admin/designer.php:64
+msgid "Minimal text"
+msgstr ""
+
+#: templates/admin/designer.php:65
+msgid "Click to add, or drag onto the card"
+msgstr ""
+
+#: templates/admin/designer.php:66
+msgid "card per row"
+msgstr ""
+
+#: templates/admin/designer.php:67
+msgid "cards per row"
+msgstr ""
+
+#: templates/admin/designer.php:68
+msgid "card width"
+msgstr ""
+
+#: templates/admin/designer.php:69
+msgid "auto"
+msgstr ""
+
+#: templates/admin/designer.php:70
+msgid "Clear"
+msgstr ""
+
+#: templates/admin/designer.php:71
+msgid "Use inherited colour"
+msgstr ""
+
+#: templates/admin/designer.php:72
+msgid "inherit"
+msgstr ""
+
+#: templates/admin/designer.php:73
+msgid "None"
+msgstr ""
+
+#: templates/admin/designer.php:74
+msgid "Soft"
+msgstr ""
+
+#: templates/admin/designer.php:75
+msgid "Medium"
+msgstr ""
+
+#: templates/admin/designer.php:76
+msgid "Strong"
+msgstr ""
+
+#: templates/admin/designer.php:77
+msgid "Card"
+msgstr ""
+
+#: templates/admin/designer.php:78
+msgid "Column"
+msgstr ""
+
+#: templates/admin/designer.php:79
+msgid "Selection"
+msgstr ""
+
+#: templates/admin/designer.php:81
+msgid "Desktop columns"
+msgstr ""
+
+#: templates/admin/designer.php:82
+msgid "Tablet columns"
+msgstr ""
+
+#: templates/admin/designer.php:83
+msgid "Phone columns"
+msgstr ""
+
+#: templates/admin/designer.php:84
+msgid "Space between cards"
+msgstr ""
+
+#: templates/admin/designer.php:85
+msgid "Card style"
+msgstr ""
+
+#: templates/admin/designer.php:86
+msgid "Background"
+msgstr ""
+
+#: templates/admin/designer.php:87
+msgid "Text colour"
+msgstr ""
+
+#: templates/admin/designer.php:88
+msgid "Border colour"
+msgstr ""
+
+#: templates/admin/designer.php:89
+msgid "Border width"
+msgstr ""
+
+#: templates/admin/designer.php:90
+msgid "Corner radius"
+msgstr ""
+
+#: templates/admin/designer.php:91
+msgid "Padding"
+msgstr ""
+
+#: templates/admin/designer.php:92
+msgid "Space between rows"
+msgstr ""
+
+#: templates/admin/designer.php:93
+msgid "Shadow"
+msgstr ""
+
+#: templates/admin/designer.php:94
+msgid "Hover effect"
+msgstr ""
+
+#: templates/admin/designer.php:95
+msgid "Lift"
+msgstr ""
+
+#: templates/admin/designer.php:96
+msgid "Glow"
+msgstr ""
+
+#: templates/admin/designer.php:97
+msgid "Tip: click a row or element on the card to edit it. Drag elements from the left between columns."
+msgstr ""
+
+#: templates/admin/designer.php:98
+msgid "Column layout"
+msgstr ""
+
+#: templates/admin/designer.php:99
+msgid "Auto (fit content)"
+msgstr ""
+
+#: templates/admin/designer.php:100
+msgid "width"
+msgstr ""
+
+#: templates/admin/designer.php:101
+msgid "Move row up"
+msgstr ""
+
+#: templates/admin/designer.php:102
+msgid "Move row down"
+msgstr ""
+
+#: templates/admin/designer.php:103
+msgid "Duplicate row"
+msgstr ""
+
+#: templates/admin/designer.php:104
+msgid "Delete row"
+msgstr ""
+
+#: templates/admin/designer.php:105
+msgid "Columns"
+msgstr ""
+
+#: templates/admin/designer.php:106
+msgid "Stack columns"
+msgstr ""
+
+#: templates/admin/designer.php:107
+msgid "When the card is narrow"
+msgstr ""
+
+#: templates/admin/designer.php:108
+msgid "On phones only"
+msgstr ""
+
+#: templates/admin/designer.php:109
+msgid "Never"
+msgstr ""
+
+#: templates/admin/designer.php:110
+msgid "“When the card is narrow” (under 420px) adapts to any grid and theme, and is recommended."
+msgstr ""
+
+#: templates/admin/designer.php:111
+msgid "Vertical alignment"
+msgstr ""
+
+#: templates/admin/designer.php:112
+msgid "Top"
+msgstr ""
+
+#: templates/admin/designer.php:113
+msgid "Middle"
+msgstr ""
+
+#: templates/admin/designer.php:114
+msgid "Bottom"
+msgstr ""
+
+#: templates/admin/designer.php:115
+msgid "Stretch"
+msgstr ""
+
+#: templates/admin/designer.php:116
+msgid "Column gap"
+msgstr ""
+
+#: templates/admin/designer.php:117
+msgid "Row style"
+msgstr ""
+
+#: templates/admin/designer.php:118
+msgid "Move up"
+msgstr ""
+
+#: templates/admin/designer.php:119
+msgid "Move down"
+msgstr ""
+
+#: templates/admin/designer.php:120
+msgid "Move to previous column"
+msgstr ""
+
+#: templates/admin/designer.php:121
+msgid "Move to next column"
+msgstr ""
+
+#: templates/admin/designer.php:122
+msgid "Duplicate"
+msgstr ""
+
+#: templates/admin/designer.php:123
+msgid "Delete"
+msgstr ""
+
+#: templates/admin/designer.php:124
+msgid "Style"
+msgstr ""
+
+#: templates/admin/designer.php:125
+msgid "No link"
+msgstr ""
+
+#: templates/admin/designer.php:126
+msgid "Link to entry"
+msgstr ""
+
+#: templates/admin/designer.php:127
+msgid "Label (shown before the value)"
+msgstr ""
+
+#: templates/admin/designer.php:128
+msgid "Optional"
+msgstr ""
+
+#: templates/admin/designer.php:129
+msgid "HTML tag"
+msgstr ""
+
+#: templates/admin/designer.php:130
+msgid "Length (words)"
+msgstr ""
+
+#: templates/admin/designer.php:131
+msgid "Text"
+msgstr ""
+
+#: templates/admin/designer.php:132
+msgid "e.g. Featured"
+msgstr ""
+
+#: templates/admin/designer.php:133
+msgid "Button text"
+msgstr ""
+
+#: templates/admin/designer.php:134
+msgid "Height"
+msgstr ""
+
+#: templates/admin/designer.php:135
+msgid "Aspect ratio"
+msgstr ""
+
+#: templates/admin/designer.php:136
+msgid "Original"
+msgstr ""
+
+#: templates/admin/designer.php:137
+msgid "Show a placeholder when an entry has no image"
+msgstr ""
+
+#: templates/admin/designer.php:138
+msgid "Size"
+msgstr ""
+
+#: templates/admin/designer.php:139
+msgid "Taxonomy"
+msgstr ""
+
+#: templates/admin/designer.php:140
+msgid "— Choose —"
+msgstr ""
+
+#: templates/admin/designer.php:141
+msgid "The selected form’s post type has no public taxonomies."
+msgstr ""
+
+#: templates/admin/designer.php:142
+msgid "Terms link to"
+msgstr ""
+
+#: templates/admin/designer.php:143
+msgid "Nothing"
+msgstr ""
+
+#: templates/admin/designer.php:144
+msgid "Term archive page"
+msgstr ""
+
+#: templates/admin/designer.php:145
+msgid "Filter this tab’s entries"
+msgstr ""
+
+#: templates/admin/designer.php:146
+msgid "Link"
+msgstr ""
+
+#: templates/admin/designer.php:147
+msgid "Field (meta key)"
+msgstr ""
+
+#: templates/admin/designer.php:148
+msgid "Pick a form field"
+msgstr ""
+
+#: templates/admin/designer.php:149
+msgid "meta_key"
+msgstr ""
+
+#: templates/admin/designer.php:150
+msgid "Suggestions come from the selected form. Hidden and password fields are never shown."
+msgstr ""
+
+#: templates/admin/designer.php:151
+msgid "Select a form in Tab Settings to list its custom fields."
+msgstr ""
+
+#: templates/admin/designer.php:152
+msgid "Only the entry’s owner sees the status."
+msgstr ""
+
+#: templates/admin/designer.php:153
+msgid "Colour"
+msgstr ""
+
+#: templates/admin/designer.php:154
+msgid "Thickness"
+msgstr ""
+
+#: templates/admin/designer.php:155
+msgid "Vertical spacing"
+msgstr ""
+
+#: templates/admin/designer.php:156
+msgid "Font size"
+msgstr ""
+
+#: templates/admin/designer.php:157
+msgid "Font weight"
+msgstr ""
+
+#: templates/admin/designer.php:158
+msgid "Alignment"
+msgstr ""
+
+#: templates/admin/designer.php:159
+msgid "Left"
+msgstr ""
+
+#: templates/admin/designer.php:160
+msgid "Center"
+msgstr ""
+
+#: templates/admin/designer.php:161
+msgid "Right"
+msgstr ""
+
+#: templates/admin/designer.php:162
+msgid "Button text colour"
+msgstr ""
+
+#: templates/admin/designer.php:163
+msgid "Button colour"
+msgstr ""
+
+#: templates/admin/designer.php:164
+msgid "Margin"
+msgstr ""
+
+#: templates/admin/designer.php:165
+msgid "Space between terms"
+msgstr ""
+
+#: templates/admin/designer.php:166
+msgid "Nothing to configure here."
+msgstr ""
+
+#: templates/admin/designer.php:167
+msgid "Card & grid"
+msgstr ""
+
+#: templates/admin/designer.php:168
+msgid "Select a form in Tab Settings to preview real entries."
+msgstr ""
+
+#: templates/admin/designer.php:169
+msgid "Loading real entries…"
+msgstr ""
+
+#: templates/admin/designer.php:170
+msgid "No published entries for this form yet. Showing sample content."
+msgstr ""
+
+#: templates/admin/designer.php:171
+msgid "Real published entries of the selected form, rendered by the frontend template (unsaved changes included)."
+msgstr ""
+
+#: templates/admin/designer.php:172
+msgid "Could not load the preview."
+msgstr ""
+
+#: templates/admin/designer.php:173
+msgid "Sample content. Switch to “Real entries” to check actual posts."
+msgstr ""
+
+#: templates/admin/designer.php:174
+msgid "Row limit reached (12)."
+msgstr ""
+
+#: templates/admin/designer.php:175
+msgid "Row added"
+msgstr ""
+
+#: templates/admin/designer.php:176
+msgid "Replace the current design with this preset? You can undo this."
+msgstr ""
+
+#: templates/admin/designer.php:177
+msgid "applied"
+msgstr ""
+
+#: templates/admin/designer.php:178
+msgid "Delete this row and its elements?"
+msgstr ""
+
+#: templates/admin/designer.php:179
+msgid "Row deleted"
+msgstr ""
+
+#: templates/admin/designer.php:180
+msgid "deleted"
+msgstr ""
+
+#: templates/admin/designer.php:181
+msgid "Element moved"
+msgstr ""
+
+#: templates/admin/designer.php:187
+msgid "Build the card used for each entry. Add rows, split them into columns, then drag elements into place. Changes are saved when you update the tab."
+msgstr ""
+
+#: templates/admin/designer.php:187
+msgid "Unsaved changes"
+msgstr ""
+
+#: templates/admin/designer.php:191
+msgid "Start from a preset"
+msgstr ""
+
+#: templates/admin/designer.php:192
+msgid "Start from a preset…"
+msgstr ""
+
+#: templates/admin/designer.php:193
+msgid "Apply preset"
+msgstr ""
+
+#: templates/admin/designer.php:196
+msgid "Undo (Ctrl+Z)"
+msgstr ""
+
+#: templates/admin/designer.php:196
+msgid "Undo"
+msgstr ""
+
+#: templates/admin/designer.php:197
+msgid "Redo (Ctrl+Shift+Z)"
+msgstr ""
+
+#: templates/admin/designer.php:197
+msgid "Redo"
+msgstr ""
+
+#: templates/admin/designer.php:199
+msgid "Preview device"
+msgstr ""
+
+#: templates/admin/designer.php:207
+#: templates/admin/designer.php:208
+msgid "Elements"
+msgstr ""
+
+#: templates/admin/designer.php:215
+msgid "Add row"
+msgstr ""
+
+#: templates/admin/designer.php:219
+msgid "Settings for the selection"
+msgstr ""
+
+#: templates/admin/designer.php:224
+msgid "Grid preview"
+msgstr ""
+
+#: templates/admin/designer.php:225
+msgid "Preview content"
+msgstr ""
+
+#: templates/admin/designer.php:226
+msgid "Sample content"
+msgstr ""
+
+#: templates/admin/designer.php:227
+msgid "Real entries"
+msgstr ""
+
+#: templates/admin/designer.php:235
+msgid "Choose “Custom layout (designer)” as the entries layout in Tab Settings to design your own cards."
+msgstr ""
+
+#: templates/admin/metabox.php:12
+msgid "— Select a form —"
+msgstr ""
+
+#: templates/admin/metabox.php:20
+msgid "(not published)"
+msgstr ""
+
+#: templates/admin/metabox.php:69
+msgid "Tab purpose"
+msgstr ""
+
+#: templates/admin/metabox.php:72
+msgid "Workspace tabs list the member’s entries for the selected form and let the owner add and edit them in place."
+msgstr ""
+
+#: templates/admin/metabox.php:78
+msgid "WP User Frontend form"
+msgstr ""
+
+#: templates/admin/metabox.php:80
+msgid "Workspace entries use this form’s post type, including custom post types."
+msgstr ""
+
+#: templates/admin/metabox.php:85
+msgid "Entries layout"
+msgstr ""
+
+#: templates/admin/metabox.php:92
+msgid "Entries per page (1–50)"
+msgstr ""
+
+#: templates/admin/metabox.php:99
+msgid "Enable live search"
+msgstr ""
+
+#: templates/admin/metabox.php:105
+msgid "Tab icon"
+msgstr ""
+
+#: templates/admin/metabox.php:113
+msgid "Description"
+msgstr ""
+
+#: templates/admin/metabox.php:115
+msgid "Shown above the entries in workspace mode, or above the form in legacy mode."
+msgstr ""
+
+#: templates/admin/metabox.php:123
+msgid "Show on profiles with these roles"
+msgstr ""
+
+#: templates/admin/metabox.php:124
+msgid "Roles of the profile owner (WordPress or Ultimate Member). Leave empty for every role. Adding and editing are always limited to the profile owner."
+msgstr ""
+
+#: templates/admin/metabox.php:133
+msgid "Taxonomy filters"
+msgstr ""
+
+#: templates/admin/metabox.php:134
+msgid "Visitors get a dropdown for each taxonomy you tick. Choices depend on the selected form’s post type."
+msgstr ""
+
+#: templates/admin/metabox.php:136
+msgid "This post type has no public taxonomies to filter by."
+msgstr ""
+
+#: um-wp-user-frontend.php:60
+#, php-format
+msgid "Cannot activate this integration. Activate these required plugins first: %s."
+msgstr ""
+
+#: um-wp-user-frontend.php:61
+msgid "Missing required plugins"
+msgstr ""
+
+#: um-wp-user-frontend.php:81
+msgid "WP User Frontend Integration for Ultimate Member is inactive because Ultimate Member and WP User Frontend must both be active."
+msgstr ""
